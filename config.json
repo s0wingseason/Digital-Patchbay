@@ -1,0 +1,88 @@
+{
+  "app_name": "MB-76 Patchbay Controller",
+  "version": "1.0.0",
+  "midi": {
+    "channel": 1,
+    "device": "X18/XR18 MIDI OUT 2"
+  },
+  "mb76": {
+    "inputs": [
+      {
+        "id": 1,
+        "name": "DAW LEFT",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "name": "DAW RIGHT",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "name": "HW RETURN A - LEFT",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "name": "HW RETURN A - RIGHT",
+        "description": ""
+      },
+      {
+        "id": 5,
+        "name": "HW RETURN B - LEFT",
+        "description": ""
+      },
+      {
+        "id": 6,
+        "name": "HW RETURN B - RIGHT",
+        "description": ""
+      },
+      {
+        "id": 7,
+        "name": "n/a",
+        "description": ""
+      }
+    ],
+    "outputs": [
+      {
+        "id": 1,
+        "name": "DAW RETURN L",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "name": "DAW RETURN R",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "name": "HW SEND A - L",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "name": "HW SEND A - R",
+        "description": ""
+      },
+      {
+        "id": 5,
+        "name": "HW SEND B - L",
+        "description": ""
+      },
+      {
+        "id": 6,
+        "name": "HW SEND B - R",
+        "description": ""
+      }
+    ],
+    "total_banks": 32
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 5000
+  },
+  "reaper": {
+    "script_path": null,
+    "auto_detect": true
+  }
+}
