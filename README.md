@@ -4,6 +4,8 @@ A modern, web-based control interface for the **Akai MB-76 Digital Patchbay**, i
 
 ![MB-76 Controller](https://via.placeholder.com/800x400/1a1a25/6366f1?text=MB-76+Patchbay+Controller)
 
+https://imgur.com/a/aNM8J0X
+
 ## Features
 
 - 🎛️ **Visual Routing Matrix** — 7×6 grid showing all input-to-output routing
